@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Source for thumbnail.png. Render with: rsvg-convert -w 144 -h 144 icon/thumbnail.svg -o thumbnail.png -->
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5c5e"/>
+      <stop offset="1" stop-color="#3a3b3d"/>
+    </linearGradient>
+    <linearGradient id="shutter" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9ccce"/>
+      <stop offset="0.5" stop-color="#eef0f1"/>
+      <stop offset="1" stop-color="#a9adb0"/>
+    </linearGradient>
+    <linearGradient id="capTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc766"/>
+      <stop offset="1" stop-color="#f0a030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- floppy body -->
+  <path d="M14 10 H104 L122 28 V112 a6 6 0 0 1 -6 6 H14 a6 6 0 0 1 -6 -6 V16 a6 6 0 0 1 6 -6 Z"
+        fill="url(#body)" stroke="#1e1f20" stroke-width="3"/>
+  <path d="M16 14 H102" stroke="#77797b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- metal shutter -->
+  <rect x="34" y="10" width="58" height="36" rx="2" fill="url(#shutter)" stroke="#1e1f20" stroke-width="2.5"/>
+  <rect x="72" y="16" width="12" height="24" rx="1.5" fill="#3a3b3d"/>
+
+  <!-- paper label -->
+  <rect x="22" y="58" width="86" height="50" rx="3" fill="#ece6d4" stroke="#1e1f20" stroke-width="2"/>
+  <rect x="22" y="58" width="86" height="9" rx="3" fill="#e39827"/>
+  <rect x="22" y="63" width="86" height="4" fill="#e39827"/>
+  <path d="M30 79 H90 M30 89 H80 M30 99 H70" stroke="#b9b29c" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- F6 keycap -->
+  <rect x="78" y="80" width="58" height="56" rx="8" fill="#8a5a12" stroke="#1e1f20" stroke-width="3"/>
+  <rect x="83" y="83" width="48" height="42" rx="6" fill="url(#capTop)"/>
+  <path d="M88 86 H126" stroke="#ffe2a6" stroke-width="2" stroke-linecap="round"/>
+  <text x="107" y="114" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold"
+        font-size="26" fill="#2a1a00">F6</text>
+</svg>
