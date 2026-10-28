@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 2026-10-28
+  Info:
+    - Renamed to Quicksave Reloaded (Quicksave-reloaded) to publish on the mod portal
+    - Replaces the original Quicksave mod and keeps its quicksave counter
+  Graphics:
+    - New thumbnail
+---------------------------------------------------------------------------------------------------
 Version: 0.5.0
 Date: 2026-10-28
   Info:

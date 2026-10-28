@@ -1,8 +1,20 @@
+-- Take over the counter when replacing the original Quicksave mod
+local function adopt_migrated()
+  local migrated = storage._migrated and storage._migrated["Quicksave"]
+  if migrated and migrated.quicksave_number then
+    storage.quicksave_number=migrated.quicksave_number
+    storage._migrated["Quicksave"]=nil
+  end
+end
+
 script.on_init(
   function()
     storage.quicksave_number=0
+    adopt_migrated()
   end
 )
+
+script.on_configuration_changed(adopt_migrated)
 
 script.on_event("quicksave-hotkey-save",
   function(e)
