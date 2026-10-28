@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2024-10-22
+  Info:
+    - Version bump and API adjustments to support Factorio 2.0
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2020-12-10
+  Info:
+    - Version bump to support Factorio 1.1
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2020-05-22
+  Info:
+    - Version bump to support Factorio 0.18
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2020-04-17
+  Info:
+    - Added settings options to set the maximal number of concurrent saves
+    - Added a setting option to set a custom name for the save
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2020-04-12
+  Info:
+    - Only allow admins on servers to quicksave
+    - Added a thumbnail
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2020-04-11
+  Info:
+    - Use multiple quicksaves with rotating numbers
+  Locale:
+    - English, German
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2020-04-10
+  Info:
+    - Initial version
